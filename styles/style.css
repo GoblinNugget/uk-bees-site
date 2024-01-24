@@ -1,0 +1,159 @@
+body{
+  background-image: url("https://pocketfullofbees.files.wordpress.com/2017/03/yellow-hex-tile.jpg");
+  background-repeat: repeat;
+  background-size: 4em;
+  background-position: center center;
+  margin: 0;
+}
+
+#intro {
+  font-family: georgia;
+  
+}
+
+#topdiv{
+  background-color: darkorange;
+  background-size: auto;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border: 30px;
+  border-radius: 30px;
+  text-size: 150%;
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-bottom: 1px;
+  float: center;
+  margin: 5%;
+  
+}
+
+#bottomdiv {
+  background-color: darkorange;
+  background-size: auto;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border: 30px;
+  border-radius: 30px;
+  text-size: 150%;
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-bottom: 1px;
+  float: center;
+  margin: 5%;
+}
+
+header {
+  margin-top: 8%;
+}
+
+footer {
+  background-color: chocolate;
+  margin: 5%;
+  display: block;
+  float: center;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+h1 {
+  color: green;
+  font-family: cursive;
+  text-align: center;
+  float: center;
+  font-size: 7rem!important;
+  line-height: 1;
+  vertical-align: middle;
+  margin: auto;
+}
+
+h2 {
+  color: darkred;
+  
+}
+
+h4 {
+  font-family: cursive;
+  font-size: 130%;
+  text-align: center;
+}
+
+img{
+  height: 100%;
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  
+}
+
+div{
+  margin-bottom: 5%;
+  background-color: burlywood;
+  border-radius: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+
+.beename {
+  text-align: center;
+  color: crimson;
+  
+}
+
+.description {
+  color: darkred;
+  font-size: 150%;
+  font-family: fantasy;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.section {
+  background-color: darkorange;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 5%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+  font-size: 80%;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+.active {
+  background-color: orangered;
+}
+
